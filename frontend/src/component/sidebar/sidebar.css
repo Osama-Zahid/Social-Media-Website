@@ -1,0 +1,39 @@
+.Sidebar{
+    flex: 2.5;
+    width: 75%;
+    height: calc(100vh - 50px);
+    position: sticky;
+    top: 50px;
+    background-color: rgb(245, 245, 245);
+    overflow-y: scroll;
+}
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-track{
+    background-color: rgb(245, 245, 245);
+}
+::-webkit-scrollbar-thumb{
+    background-color: grey
+}
+.sidebarwrapper{
+    padding: 11px;
+}
+.sidebarlist{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.sidebarlistitem{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    cursor: pointer;
+}
+.sidebaricon{
+    margin-right: 10px;
+}
+.sidebarlistitemtext{
+    font-size: 20px;
+    font-weight: 400;
+}

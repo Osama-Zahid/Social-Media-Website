@@ -1,0 +1,71 @@
+.login{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-color: #f0f2f6;
+    align-items: center;
+    justify-content: center;
+}
+.loginwrapper{
+    width: 68%;
+    height: 100%;
+    display: flex;
+}
+.loginleft{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    text-align:center;
+}
+.Loginlogo{
+    font-size: 30px;
+    font-weight: 800;
+    color: rgb(44, 44, 123);
+}
+.logindesc{
+    font-size: 16px;
+}
+.logininput{
+    height: 50px;
+    margin-right: 26px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    font-size: 18px;
+    padding-left: 10px;
+}
+.logininput:focus{
+    outline:none
+}
+.name{
+    justify-content: space-between;
+}
+.loginbox{
+    margin-top: 20px;
+    margin-left: 23%;
+    height: 400px;
+    width: 490px;
+    padding: 30px;
+    background-color: rgb(162, 162, 162);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.loginbutton{
+    height: 35px;
+    width: 150px;
+    margin-right: 20px;
+    align-self: center;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(25, 25, 218);
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.gmail{
+    align-self: center;
+    cursor: pointer;
+}
