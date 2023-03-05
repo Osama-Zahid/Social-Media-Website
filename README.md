@@ -4,7 +4,7 @@ This is a social media website where users can interact with each other by shari
 
 # Features
 - Users can create an account and login to the site.
-- Users can upload photos and videos, add captions and tags, and share them with their followers.
+- Users can upload photos and videos, add caption, and share them with their followers.
 - Users can like and comment on posts, as well as follow other users to see their content in their feed.
 
 # Technologies Used
